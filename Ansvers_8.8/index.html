@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Sofia+Sans+Extra+Condensed:ital@0;1&family=Stick&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <title>Gallery of dogs</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="gallery-header">
+
+            <div class="gallery-box">
+                <div class="btn-one">
+                    <button class="btn-gallery" id="button">
+                        Загрузить<br />собакенов
+                    </button>
+                    <div class="loader" style="display: none">
+                        <div class="loader-spinner"></div>
+                        <span class="loader-text">Загрузка...</span>
+                    </div>
+                </div>
+                <h1><span class="first-letter">&larr;</span>Галерея собакенов</h1>
+                <h2>Если картинки не загружаются, то установите VPN &rarr;</h2>
+                <div class="btn-two">
+                    <button class="btn-vpn" id="vpnButton">
+                        установить<br>VPN
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="gallery-grid">
+        </main>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
